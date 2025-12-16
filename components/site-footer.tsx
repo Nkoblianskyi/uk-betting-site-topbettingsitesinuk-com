@@ -72,46 +72,57 @@ export function SiteFooter() {
           </h4>
           <div className="flex flex-wrap justify-center items-center gap-8">
             <Link
-              href="https://www.gamblingcommission.gov.uk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-all opacity-90 hover:opacity-100"
-            >
-              <Image
-                src="/gamble-aware.png"
-                alt="UK Gambling Commission"
-                width={100}
-                height={32}
-                className="h-8 w-auto"
-              />
-            </Link>
-
-            <Link
               href="https://www.begambleaware.org/"
+              className="transition-transform duration-300 hover:scale-105  hover:grayscale-0 opacity-70 hover:opacity-100"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all opacity-90 hover:opacity-100"
             >
-              <Image src="/GamblingCare-w.png" alt="BeGambleAware" width={100} height={32} className="h-8 w-auto" />
+              <Image src="/gamble-aware.png" alt="BeGambleAware" width={100} height={32} />
             </Link>
 
             <Link
               href="https://www.gamcare.org.uk/"
+              className="transition-transform duration-300 hover:scale-105  hover:grayscale-0 opacity-70 hover:opacity-100"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all opacity-90 hover:opacity-100"
             >
-              <Image src="/gamcare.png" alt="GamCare" width={100} height={32} className="h-8 w-auto" />
+              <Image src="/gamcare.png" alt="GamCare" width={100} height={32} />
             </Link>
 
             <Link
               href="https://www.gamstop.co.uk/"
+              className="transition-transform duration-300 hover:scale-105  hover:grayscale-0 opacity-70 hover:opacity-100"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-all opacity-90 hover:opacity-100"
             >
-              <Image src="/extern-problem.png" alt="GamStop" width={100} height={32} className="h-8 w-auto" />
+              <Image src="/gamstop.svg" alt="GamStop" width={100} height={32} />
             </Link>
+
+            <Link
+              href="https://www.gamblingtherapy.org/"
+              className="transition-transform duration-300 hover:scale-105  hover:grayscale-0 opacity-70 hover:opacity-100"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/gordon.png" alt="Gambling Therapy" width={100} height={32} />
+            </Link>
+
+            <Link
+              href="https://www.gamblingcommission.gov.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 hover:scale-105"
+            >
+              <Image
+                src="/Gambling_Commission_logo.png"
+                alt="UK Gambling Commission"
+                width={100}
+                height={35}
+                className="mb-2"
+              />
+            </Link>
+
+
           </div>
         </div>
       </div>
